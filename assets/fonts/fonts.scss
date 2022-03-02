@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'PP Formula Condensed';
+    src: url('./assets/fonts/PPFormulaCondensed-Bold.eot');
+    src: url('./assets/fonts/PPFormulaCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/PPFormulaCondensed-Bold.woff2') format('woff2'),
+        url('./assets/fonts/PPFormulaCondensed-Bold.woff') format('woff'),
+        url('./assets/fonts/PPFormulaCondensed-Bold.ttf') format('truetype'),
+        url('./assets/fonts/PPFormulaCondensed-Bold.svg#PPFormulaCondensed-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Formula Condensed';
+    src: url('./assets/fonts/PPFormulaCondensed-Ultralight.eot');
+    src: url('./assets/fonts/PPFormulaCondensed-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/PPFormulaCondensed-Ultralight.woff2') format('woff2'),
+        url('./assets/fonts/PPFormulaCondensed-Ultralight.woff') format('woff'),
+        url('./assets/fonts/PPFormulaCondensed-Ultralight.ttf') format('truetype'),
+        url('./assets/fonts/PPFormulaCondensed-Ultralight.svg#PPFormulaCondensed-Ultralight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Formula Condensed';
+    src: url('./assets/fonts/PPFormulaCondensed-Light.eot');
+    src: url('./assets/fonts/PPFormulaCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/PPFormulaCondensed-Light.woff2') format('woff2'),
+        url('./assets/fonts/PPFormulaCondensed-Light.woff') format('woff'),
+        url('./assets/fonts/PPFormulaCondensed-Light.ttf') format('truetype'),
+        url('./assets/fonts/PPFormulaCondensed-Light.svg#PPFormulaCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
