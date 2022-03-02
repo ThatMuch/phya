@@ -4,8 +4,8 @@
                     <div class="videoplayer">
                         <div class="videoFlex">
                             <video id="featurevideo" autoplay muted loop preload="none">
-                                <source src="<?php echo get_template_directory_uri() ?>/assets/video/Phya-sport.mp4" type="video/mp4"/>
-                                <source src="<?php echo get_template_directory_uri() ?>/assets/video/Phya-sport.webm" type="video/webm"/>
+                                <source src="<?php echo get_template_directory_uri() ?>/assets/video/mp4.mp4" type="video/mp4"/>
+                                <source src="<?php echo get_template_directory_uri() ?>/assets/video/webm.webm" type="video/webm"/>
                             </video>
                         </div>
                     </div>

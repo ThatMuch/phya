@@ -51,7 +51,8 @@ input:focus,button:focus,a:focus,textarea:focus{outline:0;-webkit-box-shadow:0 0
 .app__info.middle .app__text--content{padding:0 0 0 20px}
 .app__info.middle .app__text--number{padding-left:40px}
 .app__video{position:fixed;visibility:hidden;top:0;height:100%;width:100%;left:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;opacity:0;-webkit-transition:.2s;transition:.2s}
-.app__video .videoplayer video{width:80vh;height:80vh;position:relative;-webkit-transform:translateY(var(--translateY));transform:translateY(var(--translateY));will-change:transform;-ms-flex-item-align:center;align-self:center;margin:0 auto}
+.app__video .videoFlex{width:80vh;height:80vh;position:relative;overflow:hidden}
+.app__video .videoplayer video{width:100%;height:101%;position:relative;-webkit-transform:translateY(-1px);transform:translateY(-1px);will-change:transform;-ms-flex-item-align:center;align-self:center;margin:0 auto}
 .fp-viewing-learn .app__video{opacity:1;visibility:visible}
 .fp-viewing-learn .learn{opacity:1;visibility:visible;width:auto}
 .fp-viewing-train .app__video{opacity:1;visibility:visible}
@@ -108,7 +109,7 @@ input:focus,button:focus,a:focus,textarea:focus{outline:0;-webkit-box-shadow:0 0
 .app__text{max-width:520px}
 .app__info.middle{margin-left:0 !important}
 .app__video{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
-.app__video .videoplayer video{width:40vh;height:40vh}
+.app__video .videoFlex{width:40vh;height:40vh}
 }@media only screen and (max-width:991px){.hero__text h1 span.light::before{bottom:20px}
 .app__text{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;max-width:100%}
 .app__text--number{font-size:100px;width:70px;top:25px}
@@ -118,7 +119,7 @@ input:focus,button:focus,a:focus,textarea:focus{outline:0;-webkit-box-shadow:0 0
 .app__info.middle .app__text--number{padding:0}
 .app__video{position:relative;height:auto;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;opacity:1;visibility:visible;margin:80px 0}
 .app__video{margin:30px 0}
-.app__video .videoplayer video{width:auto;height:500px}
+.app__video .videoFlex{width:auto;height:500px}
 .section__area{padding:20px 0}
 .promotion__area{padding:100px 0}
 .promotion__text{margin-top:30px}
