@@ -22,7 +22,7 @@ const injectChanges = true;
 // >>>>> Style options.
 // Path to main .scss file.
 const styleSRC = './assets/styles/style.scss';
-
+const cssSRC = './assets/css/';
 // Path to place the compiled CSS file. Default set to root folder.
 const styleDestination = './';
 
@@ -105,7 +105,8 @@ const zipIgnoreGlob = [
 	`!${imgSRC}`,
 	`!${styleSRC}`,
 	`!${jsCustomSRC}`,
-	`!${jsVendorSRC}`
+	`!${jsVendorSRC}`,
+	`!${cssSRC}`
 ];
 
 // >>>>> Translation options.
