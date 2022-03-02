@@ -71,27 +71,17 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="promotion__images">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/man-1.png" alt="">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/man-2.png" alt="">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/man-3.png" alt="">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/woman-1.png" alt="">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/woman-2.png" alt="">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/woman-3.png" alt="">
+                            <img data-aos="zoom-in" data-aos-anchor=".promotion__area" data-aos-delay="200" src="<?php echo get_template_directory_uri() ?>/assets/img/man-1.png" alt="">
+                            <img data-aos="zoom-in" data-aos-anchor=".promotion__area" data-aos-delay="300" src="<?php echo get_template_directory_uri() ?>/assets/img/man-2.png" alt="">
+                            <img data-aos="zoom-in" data-aos-anchor=".promotion__area" data-aos-delay="400" src="<?php echo get_template_directory_uri() ?>/assets/img/man-3.png" alt="">
+                            <img data-aos="zoom-in" data-aos-anchor=".promotion__area" data-aos-delay="500" src="<?php echo get_template_directory_uri() ?>/assets/img/woman-1.png" alt="">
+                            <img data-aos="zoom-in" data-aos-anchor=".promotion__area" data-aos-delay="600" src="<?php echo get_template_directory_uri() ?>/assets/img/woman-2.png" alt="">
+                            <img data-aos="zoom-in" data-aos-anchor=".promotion__area" data-aos-delay="700" src="<?php echo get_template_directory_uri() ?>/assets/img/woman-3.png" alt="">
                         </div>
                         <div class="promotion__body">
                             <div class="promotion__text">
-                                <h2 class="wow fadeInUp"><strong>CHAQUE SEMAINE</strong> <br><strong>DE NOUVEAUX</strong> CRÉATEURS DE CONTENU <br><strong>REJOIGNENT LA PLATEFORME POUR VOUS FAIRE BOUGER</strong></h2>
-                                <p class="wow fadeInUp">Préparateurs physiques, athlètes olympiques, ou encore <br>professeurs de danse qui viennent partager leur expérience avec <br>vous, PHYA les invite virtuellement dans votre salon !</p>
-                            </div>
-                            <div class="app__link wow fadeInUp">
-                                <a href="https://apps.apple.com/fr/app/phya/id1596641685" target="_blank">
-                                    <span class="icon"><img src="<?php echo get_template_directory_uri() ?>/assets/img/apple.svg" alt=""></span>
-                                    <span class="text">Download on the <strong>App Store</strong></span>
-                                </a>
-                                <!-- <a href="https://play.google.com/store/apps/details?id=com.bodystat.phya_v3" target="_blank">
-                                    <span class="icon"><img src="<?php // echo get_template_directory_uri() ?>/assets/img/play.svg" alt=""></span>
-                                    <span class="text">Get it on <strong>Google Play</strong></span>
-                                </a> -->
+                                <h2 data-aos="fade-up" data-aos-anchor=".promotion__area" data-aos-delay="100"><strong>CHAQUE SEMAINE</strong> <br><strong>DE NOUVEAUX</strong> CRÉATEURS DE CONTENU <br><strong>REJOIGNENT LA PLATEFORME POUR VOUS FAIRE BOUGER</strong></h2>
+                                <p data-aos="fade-up" data-aos-anchor=".promotion__area" data-aos-delay="150">Préparateurs physiques, athlètes olympiques, ou encore <br>professeurs de danse qui viennent partager leur expérience avec <br>vous, PHYA les invite virtuellement dans votre salon !</p>
                             </div>
                         </div>
                     </div>
@@ -105,9 +95,9 @@
                     <div class="col-md-12">
                         <div class="service__wrapper wow fadeInUp">
                             <div class="service__text">
-                                <h3>NOTRE TECHNOLOGIE</h3>
-                                <h2>L’IA FAIT LE LIEN ENTRE <br>VOUS ET <span>VOTRE COACH</span></h2>
-                                <p>Au travers de la caméra de votre téléphone <br>vos mouvements et votre rythme sont <br>comparés à ceux de votre coach !</p>
+                                <h3 data-aos="fade-up" data-aos-anchor=".service__text" data-aos-delay="100">NOTRE TECHNOLOGIE</h3>
+                                <h2 data-aos="fade-up" data-aos-anchor=".service__text" data-aos-delay="200">L’IA FAIT LE LIEN ENTRE <br>VOUS ET <span>VOTRE COACH</span></h2>
+                                <p data-aos="fade-up" data-aos-anchor=".service__text" data-aos-delay="300">Au travers de la caméra de votre téléphone <br>vos mouvements et votre rythme sont <br>comparés à ceux de votre coach !</p>
                             </div>
                         </div>
                     </div>

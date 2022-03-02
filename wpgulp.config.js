@@ -78,10 +78,10 @@ const watchPhp = './**/*.php';
 
 // >>>>> Zip file config.
 // Must have.zip at the end.
-const zipName = 'file.zip';
+const zipName = 'phya.zip';
 
 // Must be a folder outside of the zip folder.
-const zipDestination = './../'; // Default: Parent folder.
+const zipDestination = './dist/'; // Default: Parent folder.
 const zipIncludeGlob = ['./**/*']; // Default: Include all files/folders in current directory.
 
 // Default ignored files and folders for the zip file.

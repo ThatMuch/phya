@@ -42,10 +42,10 @@
                                     <span class="icon"><img src="<?php echo get_template_directory_uri() ?>/assets/img/apple.svg" alt=""></span>
                                     <span class="text">Download on the <strong>App Store</strong></span>
                                 </a>
-                                <!-- <a href="https://play.google.com/store/apps/details?id=com.bodystat.phya_v3" target="_blank">
-                                    <span class="icon"><img src="<?php // echo get_template_directory_uri() ?>/assets/img/play.svg" alt=""></span>
+                             <a href="https://play.google.com/store/apps/details?id=com.bodystat.phya_v3" target="_blank">
+                                    <span class="icon"><img src="<?php  echo get_template_directory_uri() ?>/assets/img/play.svg" alt=""></span>
                                     <span class="text">Get it on <strong>Google Play</strong></span>
-                                </a> -->
+                                </a>
                             </div>
                         </div>
                     </div>
