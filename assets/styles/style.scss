@@ -548,7 +548,8 @@ textarea {
             width: 80vh;
             height: 80vh;
             position: relative;
-overflow: hidden;
+            overflow: hidden;
+
             @include breakpoint(ipad) {
                 width: 40vh;
                 height: 40vh;
@@ -561,14 +562,30 @@ overflow: hidden;
             }
         }
 
-        .videoplayer video {
-            width: 100%;
-            height: 101%;
-            position: relative;
-            transform: translateY(-1px);
-            will-change: transform;
-            align-self: center;
-            margin: 0 auto;
+        .videoplayer {
+            video {
+                width: 100%;
+                height: 101%;
+                position: relative;
+                transform: translateY(-1px);
+                will-change: transform;
+                align-self: center;
+                margin: 0 auto;
+
+                @include breakpoint(mobile) {
+                    display: none;
+                }
+            }
+
+            img {
+                display: none;
+                height: 102%;
+                transform: translateY(-1px);
+
+                @include breakpoint(mobile) {
+                    display: block;
+                }
+            }
         }
     }
 }

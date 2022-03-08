@@ -24,7 +24,7 @@ const injectChanges = true;
 const styleSRC = './assets/styles/style.scss';
 const cssSRC = './assets/css/';
 // Path to place the compiled CSS file. Default set to root folder.
-const styleDestination = './';
+const styleDestination = './assets/styles/';
 
 // Available options → 'compact' or 'compressed' or 'nested' or 'expanded'
 const outputStyle = 'compact';
@@ -169,5 +169,6 @@ module.exports = {
 	bugReport,
 	lastTranslator,
 	team,
-	BROWSERS_LIST
+	BROWSERS_LIST,
+	cssSRC
 };

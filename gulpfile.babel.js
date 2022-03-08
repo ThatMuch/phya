@@ -138,7 +138,7 @@ gulp.task('styles',() => {
 		.pipe(rename({ suffix: '.min' }))
 		.pipe(minifycss({ maxLineLen: 10 }))
 		.pipe(lineec()) // Consistent Line Endings for non UNIX systems.
-		.pipe(gulp.dest(config.styleDestination))
+		.pipe(gulp.dest('./'))
 		.pipe(filter('**/*.css')) // Filtering stream to only css files.
 		.pipe(browserSync.stream()) // Reloads style.min.css if that is enqueued.
 		.pipe(

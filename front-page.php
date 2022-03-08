@@ -7,6 +7,7 @@
                                 <source src="<?php echo get_template_directory_uri() ?>/assets/video/mp4.mp4" type="video/mp4"/>
                                 <source src="<?php echo get_template_directory_uri() ?>/assets/video/webm.webm" type="video/webm"/>
                             </video>
+							<img src="<?php echo get_template_directory_uri() ?>/assets/img/Phya-sport.gif" alt="phya video">
                         </div>
                     </div>
                 </div>
