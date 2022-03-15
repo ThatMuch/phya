@@ -1,7 +1,6 @@
 $(document).ready(function ($) {
 	// AOS JS
 	AOS.init();
-	console.log("coucou");
 	var vid = document.getElementById('featurevideo');
 
 	// FullPage JS

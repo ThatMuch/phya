@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/aos.min.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/fullpage.min.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/animate.css">
+
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/assets/css/normalize.css">
     <?php phya_gtm('head') ?>
@@ -35,12 +36,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="header">
-                            <!-- <div class="language dropdown">
-                                <button class="btn dropdown-toggle" type="button" id="language" data-bs-toggle="dropdown" aria-expanded="false"> FR</button>
+                             <div class="language dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="language" data-bs-toggle="dropdown" aria-expanded="false">FR</button>
                                 <ul class="dropdown-menu" aria-labelledby="language">
-                                    <li><a class="dropdown-item" href="#">EN</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo site_url(); ?>/en">EN</a></li>
                                 </ul>
-                            </div> -->
+                            </div>
                             <div class="social__bookmarks">
                                 <ul>
                                    <!-- <li><a href="#" target="_blank"><img src="<?php // echo get_template_directory_uri() ?>/assets/img/tiktok-white.svg" alt="tiktok"></a></li> -->
@@ -63,8 +64,13 @@
                             <div class="logo" data-aos="fade-down" data-aos-anchor=".hero__area" data-aos-delay="900">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/phya-logo.svg" alt="phya">
                             </div>
-                            <h1 data-aos="fade-up" data-aos-anchor=".hero__area" data-aos-delay="500"><span class="light">LEARN</span> <span class="middle">TRAIN</span> PLAY</h1>
+                            <h1 class="text-uppercase" data-aos="fade-up" data-aos-anchor=".hero__area" data-aos-delay="500"><span class="light">Learn</span> <span class="middle">Train</span> Play</h1>
+							<?php if ($wp_query->queried_object->post_name == "en" ) : ; ?>
+                            <p data-aos="fade-up" data-aos-anchor=".hero__area" data-aos-delay="600">
+							The app that’s revolutionizing fitness! <br>Enjoy motivating, totally interactive workouts<br> with expert coaches. And without having to leave your home!</p>
+							<?php else : ?>
                             <p data-aos="fade-up" data-aos-anchor=".hero__area" data-aos-delay="600">L’Application qui révolutionne le Fitness ! <br>Des séances motivantes, totalement interactives, fun, <br>avec des experts qualifiés. Le tout sans bouger de chez vous !</p>
+							<?php endif;?>
                             <div class="signup__form" data-aos="fade-up" data-aos-anchor=".hero__area" data-aos-delay="800">
 								<form method="POST" action="https://bodystat.activehosted.com/proc.php" id="_form_1_" class="_form _form_1 _inline-form _inline-style _dark" novalidate>
 									<input type="hidden" name="u" value="1" />
@@ -77,7 +83,7 @@
 									<input type="hidden" name="or" value="746b6b4d71f8eb62f7052cd03d62d1d2" />
 									<input type="text" id="email" name="email" placeholder="Email address" required/>
 									<button id="_form_1_submit" class="_submit" type="submit">
-										<img src="<?php echo get_template_directory_uri() ?>/assets/img/arrow-right.svg" alt=""><span>SIGN UP</span>
+										<img src="<?php echo get_template_directory_uri() ?>/assets/img/arrow-right.svg" alt="arrow right"><span class="text-uppercase">Sign up</span>
 									</button>
 
 								</form>
